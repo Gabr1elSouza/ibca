@@ -10,8 +10,15 @@
 :root {
   --clr: #222327;
 }
+#root {
+  width: 100%;
+}
 
-body {
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,6 +26,7 @@ body {
   background-color: var(--clr);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow: hidden; /* Impede a barra de rolagem */
 }
 
 code {
