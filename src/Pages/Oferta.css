@@ -1,0 +1,31 @@
+.dizimo-oferta {
+  text-align: center;
+  background-color: transparent; /* Cor de fundo específica para a página Dízimo e Oferta */
+  color: white; /* Cor do texto específica para a página Dízimo e Oferta */
+}
+h2 {
+  color: #000000;
+  background-color: #fff;
+  font-size: 3.5rem;
+  border-radius: 15px;
+}
+
+.dizimo-oferta img {
+  width: 60%;
+  max-height: 60vh;
+  margin-top: 20px;
+}
+
+.info-banco {
+  margin-top: 40px;
+  color: white; /* Cor do texto específica para a página Dízimo e Oferta */
+  background: #106114;
+}
+
+.info-banco h3 {
+  font-size: 2.8rem;
+}
+
+.info-banco p {
+  font-size: 2.5rem;
+}

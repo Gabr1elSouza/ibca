@@ -49,7 +49,7 @@ const Home = () => {
           </p>
         </div>
       </div>
-      <div className="cta">
+      <div className="cta_s">
         <h2>Clique nos icones abaixo para mais interações</h2>
         {/* Adicione conteúdo da chamada para ação aqui */}
       </div>

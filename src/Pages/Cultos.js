@@ -21,33 +21,33 @@ const cultos = () => {
         <div className="culto">
           <h3>Oração</h3>
           {/* Adicione um link para a página específica do Culto 2 */}
-          <Link to="/oracao">Clique para Detalhes </Link>
+          <Link to="/oracao">Segunda-feira ás 6h</Link>
         </div>
         <div className="culto">
           <h3>Tarde das Bençãos </h3>
           {/* Adicione um link para a página específica do Culto 1 */}
-          <Link to="/Tarde">Clique para Detalhes </Link>
+          <Link to="/Tarde">Terça-feira ás 15h </Link>
         </div>
         <div className="culto">
           <h3>OFIR</h3>
           {/* Adicione um link para a página específica do Culto 2 */}
-          <Link to="/ofir">Clique para Detalhes </Link>
+          <Link to="/ofir">Quarta-feiras ás 19h </Link>
         </div>
 
         <div className="culto">
           <h3>ATUS</h3>
           {/* Adicione um link para a página específica do Culto 2 */}
-          <Link to="/atus">Clique para Detalhes </Link>
+          <Link to="/atus">Sábado ás 14:30 e 17h </Link>
         </div>
         <div className="culto">
           <h3>EBD</h3>
           {/* Adicione um link para a página específica do Culto 2 */}
-          <Link to="/ebd">Clique para Detalhes </Link>
+          <Link to="/ebd">Domingo ás 7h e 10h30 </Link>
         </div>
         <div className="culto">
           <h3>CONECTAR</h3>
           {/* Adicione um link para a página específica do Culto 2 */}
-          <Link to="/conectar">Clique para Detalhes </Link>{" "}
+          <Link to="/conectar">Domingo ás 18h </Link>{" "}
         </div>
         {/* Adicione mais quadrados para outros cultos, se necessário */}
       </div>
