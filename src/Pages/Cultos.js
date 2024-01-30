@@ -2,17 +2,12 @@
 import React from "react";
 import "./Culto.css";
 import { Link } from "react-router-dom";
+import TopBar from "../Components/topBar/TopBar";
 
 const cultos = () => {
   return (
     <div>
-      <div className="navbar">
-        <Link className="Icon"></Link>
-        <h1>
-          <span>I</span>greja <span>B</span>atista <span>C</span>aminho das
-          <span>Á</span>rvores
-        </h1>
-      </div>
+      <TopBar/>
       <div className="info">
         <h2>CULTOS</h2>
         <p>Cultos que acontecem na semana</p>

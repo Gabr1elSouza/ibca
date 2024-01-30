@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./Pages/Home";
 import Oferta from "./Pages/Oferta";
 import Jejum from "./Pages/Jejum";
-import Localiza from "./Pages/localiza";
+import Localiza from "./Pages/Localiza";
 import Cultos from "./Pages/Cultos";
 import Nav from "./Components/Nav";
 

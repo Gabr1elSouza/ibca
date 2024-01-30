@@ -2,18 +2,12 @@
 import React from "react";
 import "./Home.css";
 import CardAnimation from "../Components/CardAnimation";
-import { Link } from "react-router-dom";
+import TopBar from "../Components/topBar/TopBar";
 
 const Home = () => {
   return (
     <div className="App">
-      <div className="navbar">
-        <Link className="Icon"></Link>
-        <h1>
-          <span>I</span>greja <span>B</span>atista <span>C</span>aminho das
-          <span>Á</span>rvores
-        </h1>
-      </div>
+      <TopBar/>
 
       <div className="cta">
         <h2>Bem-vindo ao NOVO!</h2>
@@ -43,7 +37,7 @@ const Home = () => {
               <li>Amor</li>e<li>Serviço</li>
             </ul>
             <span>
-              ENSINNANDO A TRILHAR O CAMINHO <br />
+              ENSINANDO A TRILHAR O CAMINHO <br />
               DA FÉ E SALVAÇÃO = JESUS
             </span>
           </p>
