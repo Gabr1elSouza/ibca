@@ -1,3 +1,15 @@
-.qrcode [for="c1"] {
-  background-image: url(../../public//img/Localização.png);
+.content-localizacao {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+#qrcode-map {
+  max-width: 400px;
+  padding: 1rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  margin: 3rem;
+  border: 8px solid white;
 }
