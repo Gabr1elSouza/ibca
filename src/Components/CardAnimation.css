@@ -80,14 +80,14 @@ input:checked + label .description {
 }
 
 .card[for="c1"] {
-  background-image: url("");
+  background-image: url("../../public/img/1.JPG");
 }
 .card[for="c2"] {
-  background-image: url("");
+  background-image: url("../../public/img/2.JPG");
 }
 .card[for="c3"] {
-  background-image: url("");
+  background-image: url("../../public/img/3.JPG");
 }
 .card[for="c4"] {
-  background-image: url("");
+  background-image: url("../../public/img/4.JPG");
 }

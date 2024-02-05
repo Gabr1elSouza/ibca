@@ -7,7 +7,7 @@ import TopBar from "../Components/topBar/TopBar";
 const Home = () => {
   return (
     <div className="App">
-      <TopBar/>
+      <TopBar />
 
       <div className="cta">
         <h2>Bem-vindo ao NOVO!</h2>
@@ -34,7 +34,7 @@ const Home = () => {
           <p>
             <span>ALCANÇAR VIDAS COM</span>
             <ul>
-              <li>Amor</li>e<li>Serviço</li>
+              <li>Amor</li>e <li>Serviço</li>
             </ul>
             <span>
               ENSINANDO A TRILHAR O CAMINHO <br />
@@ -44,7 +44,7 @@ const Home = () => {
         </div>
       </div>
       <div className="cta_s">
-        <h2>Clique nos icones abaixo para mais interações</h2>
+        <h4>Clique nos icones abaixo para mais interações</h4>
         {/* Adicione conteúdo da chamada para ação aqui */}
       </div>
     </div>
