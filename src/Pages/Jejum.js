@@ -33,6 +33,11 @@ const Jejum = () => {
           </h3>
         </div>
       </div>
+      <img
+        src={require("../../src/assets/images/JejumQRcode.png")}
+        id="qrcode-jejum"
+        alt="jejum"
+      />
       <div className="cpa-2">
         <h3>
           Mais informações podem ser obtidas através do QR Code, <br />
@@ -40,9 +45,7 @@ const Jejum = () => {
           WhatsApp (71) 3016-9400 em horário comercial.
         </h3>
       </div>
-      <div className="qr">
-        <img src="../../puclic/JejumQrcode.png" alt="qrcode " />
-      </div>
+      <div className="qr"></div>
     </div>
   );
 };

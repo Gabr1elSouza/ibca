@@ -8,6 +8,17 @@ h2 {
   background-color: #fff;
   font-size: 3.5rem;
   border-radius: 15px;
+  padding: 8px;
+}
+.chamada {
+  background: #106114;
+  padding: 20px;
+
+  h3 {
+    color: #fff;
+    font-size: 42px;
+    padding: 10px;
+  }
 }
 
 .dizimo-oferta img {
@@ -20,12 +31,38 @@ h2 {
   margin-top: 40px;
   color: white; /* Cor do texto específica para a página Dízimo e Oferta */
   background: #106114;
+  border-radius: 10px;
+  padding: 40px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .info-banco h3 {
-  font-size: 2.8rem;
+  font-size: 2.5rem;
 }
 
 .info-banco p {
   font-size: 2.5rem;
+}
+.info-banco p span {
+  font-weight: 800;
+}
+
+.info-banco .pix {
+  h4 {
+    font-size: 40px;
+  }
+  p {
+    font-size: 40px;
+    font-weight: 500;
+  }
+  .name {
+    font-size: 30px;
+    padding-top: 0.5em;
+  }
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }

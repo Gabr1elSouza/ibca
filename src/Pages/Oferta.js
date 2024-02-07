@@ -11,16 +11,36 @@ const oferta = () => {
         </h1>
       </div>
       <h2>Dízimo e Oferta</h2>
+      <div className="chamada">
+        <h3>Faça sua parte!</h3>
+      </div>
       <img
         src="caminho/para/sua/imagem-dizimo.jpg"
         alt="Imagem Dízimo e Oferta"
       />
       <div className="info-banco">
-        <h3>Informações Bancárias</h3>
-        <p>Banco: Santander</p>
-        <p>Agência: XXXX</p>
-        <p>Conta: XXXX-XX</p>
         {/* Adicione mais informações bancárias, se necessário */}
+        <div className="pix">
+          <h4>Chave Pix:</h4>
+          <p>
+            <span>OFERTA@IBCA.ORG.BR</span>
+          </p>
+          <p className="name">
+            Ministério Batista Internacional Caminho das Árvores
+          </p>
+        </div>
+        <div className="banco">
+          <h3>Informações Bancárias:</h3>
+          <p>
+            Banco: <span>Santander</span>
+          </p>
+          <p>
+            Agência: <span>0797</span>
+          </p>
+          <p>
+            Conta: <span>130016143</span>{" "}
+          </p>
+        </div>
       </div>
     </div>
   );

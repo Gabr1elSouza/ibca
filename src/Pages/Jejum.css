@@ -1,6 +1,6 @@
 .title {
   background: #fff;
-  padding: 24px;
+  padding: 20px;
   border-radius: 10px;
 }
 
@@ -11,7 +11,7 @@
 
 .info {
   background: #106114;
-  padding: 16px;
+  padding: 12px;
   flex-direction: column;
 }
 
@@ -20,12 +20,12 @@
   font-size: 34px;
   font-weight: 600;
   margin-inline: 16px;
-  padding: 24px;
+  padding: 20px;
 }
 .info .cpa-1 {
   background: #0b410d;
   border-radius: 16px;
-  padding: 24px;
+  padding: 20px;
 }
 
 .info .cpa-1 h3 {
@@ -38,5 +38,16 @@
 
 .cpa-2 h3 {
   font-size: 30px;
-  padding: 16px;
+  padding-inline-start: 20px;
+  padding-bottom: 25px;
+  padding-top: 20px;
+}
+
+#qrcode-jejum {
+  max-width: 500px;
+  padding: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin: 2rem;
+  border: 8px solid white;
 }

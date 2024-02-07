@@ -8,8 +8,8 @@
 
   background: #106114;
   border-radius: 15px;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -19,12 +19,12 @@
   padding: 20px;
   border-radius: 16px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  height: 200px;
+  height: 370px;
 }
 .culto h3 {
   font-size: 42px;
   margin-bottom: 1rem;
-  padding-bottom: 15px;
+  padding-bottom: 20px;
 }
 .culto a {
   font-size: 2rem;
@@ -35,16 +35,24 @@
   border-radius: 30px;
 }
 
+.culto .imagem {
+  width: 250px;
+  padding-top: 5px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 0 10px;
+}
+
 /* ... estilos adicionais conforme necessário ... */
-.info h2 {
+.info-culto h2 {
   font-size: 4rem;
   padding: 20px;
 }
 
-.info p {
-  font-size: 2.8rem;
+.info-culto p {
+  font-size: 2.5rem;
   color: #000;
   background: #fff;
   font-weight: 700;
   padding: 20px;
+  border-radius: 15px;
 }
