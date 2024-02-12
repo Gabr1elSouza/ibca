@@ -24,7 +24,7 @@ h2 {
 .dizimo-oferta img {
   width: 60%;
   max-height: 60vh;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .info-banco {
@@ -32,13 +32,13 @@ h2 {
   color: white; /* Cor do texto específica para a página Dízimo e Oferta */
   background: #106114;
   border-radius: 10px;
-  padding: 40px;
+  padding: 200px 20px;
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .info-banco h3 {
-  font-size: 2.5rem;
+  font-size: 2.6rem;
 }
 
 .info-banco p {
@@ -65,4 +65,12 @@ h2 {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+}
+
+#qrcode-oferta {
+  max-width: 550px;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  margin: 3rem 2rem;
+  border: 8px solid white;
 }

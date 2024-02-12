@@ -15,7 +15,8 @@ const oferta = () => {
         <h3>Faça sua parte!</h3>
       </div>
       <img
-        src="caminho/para/sua/imagem-dizimo.jpg"
+        id="qrcode-oferta"
+        src={require("../assets/images/QrCodeOferta.png")}
         alt="Imagem Dízimo e Oferta"
       />
       <div className="info-banco">

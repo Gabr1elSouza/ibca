@@ -86,7 +86,7 @@ input:checked + label .description {
   background-image: url("../../public/img/2.JPG");
 }
 .card[for="c3"] {
-  background-image: url("../../public/img/3.JPG");
+  background-image: url("../../public/img/c3.JPG");
 }
 .card[for="c4"] {
   background-image: url("../../public/img/4.JPG");
